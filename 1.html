@@ -147,9 +147,9 @@ const emojis = ["🎉","🎂","🎈","🎁","💖","😊","✨","🥳","🌸","�
 const nameUpper = nameParam ? nameParam.toUpperCase().replace(/\s+/g,"") : "";
 
 const words = [
-  (msgParam || "HAPPY").toUpperCase(),
+  (msgParam || "Rashi").toUpperCase(),
   "",
-  "BIRTHDAY",
+  "Pagal hai",
   "",
   nameUpper
 ].filter((x,i)=> !(x==="" && i===0)); // avoid leading empty
@@ -301,5 +301,6 @@ requestAnimationFrame(tick);
 
 </body>
 </html>
+
 
 
